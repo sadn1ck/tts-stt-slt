@@ -23,7 +23,7 @@ window.addEventListener("DOMContentLoaded", () => {
             main.classList.remove("speaking");
         };
         const onResult = event => {
-            console.log(event);
+            // console.log(event);
             result.innerHTML = "";
             for (const res of event.results) {
                 const text = document.createTextNode(res[0].transcript);
